@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("./bg.jpg");
+    background-image: url("https://www.chetu.com/blogs/payments/how-to-integrate-a-payment-gateway-into-a-website.php");
 }
 .page {
     display: grid;
