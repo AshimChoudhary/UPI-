@@ -14,8 +14,8 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Replace with your sandbox credentials stored in environment variables
-const apiKey = process.env.API_KEY || "key_live_2pMRK3JRbcYcGQ99NjDE1WDUZvvwygdY";
-const accessToken = process.env.ACCESS_TOKEN || "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiJBUEkiLCJyZWZyZXNoX3Rva2VuIjoiZXlKaGJHY2lPaUpJVXpVeE1pSjkuZXlKaGRXUWlPaUpCVUVraUxDSnpkV0lpT2lKdWFYTm9ZVzUwYTJoaGRISnBPVGd4TWpNMk1UQTJNVUJuYldGcGJDNWpiMjBpTENKaGNHbGZhMlY1SWpvaWEyVjVYMnhwZG1WZk1uQk5Va3N6U2xKaVkxbGpSMUU1T1U1cVJFVXhWMFJWV25aMmQzbG5aRmtpTENKcGMzTWlPaUpoY0drdWMyRnVaR0p2ZUM1amJ5NXBiaUlzSW1WNGNDSTZNVGMxTmpBeE5qQTRNeXdpYVc1MFpXNTBJam9pVWtWR1VrVlRTRjlVVDB0RlRpSXNJbWxoZENJNk1UY3lORFE0TURBNE0zMC56b19UOXVBaEp3VjZ3dGFsQ1NTM3p3alZMbkxkZWtpd01HMGROZjJtWW9pQVprTmxJWHFGZGJ0OXhCNERsejhGR2k3ZjJCY0FOeVBtaU9DOFE1MTBndyIsInN1YiI6Im5pc2hhbnRraGF0cmk5ODEyMzYxMDYxQGdtYWlsLmNvbSIsImFwaV9rZXkiOiJrZXlfbGl2ZV8ycE1SSzNKUmJjWWNHUTk5TmpERTFXRFVadnZ3eWdkWSIsImlzcyI6ImFwaS5zYW5kYm94LmNvLmluIiwiZXhwIjoxNzI0NTY2NDgzLCJpbnRlbnQiOiJBQ0NFU1NfVE9LRU4iLCJpYXQiOjE3MjQ0ODAwODN9.9_XMgfVlTfOlLJP7GlzzTHpddpya9xHmSxlOmfzTt9OsLfspmvC-PC27lkgqm86zAloxL2MQxVm8gP59msjx4A"; // Truncated for brevity
+const apiKey = process.env.API_KEY || "Enter Your API Key Here";
+const accessToken = process.env.ACCESS_TOKEN || "Enter Your API Access Token here"; // Truncated for brevity
 
 // Serve the initial payment form
 app.get("/", (req, res) => {
