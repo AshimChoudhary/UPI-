@@ -1,4 +1,4 @@
-**UPI Details Fetching Project **
+**UPI Details Fetching Project**
 
 This is an Express js project used to fetch details of the user by entering their name in the system and the server will fetch their UPI id linked with their name using DNS with the help of **SandBox API** 
 
